@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: file://${user.home}/Desktop/personal-projects/loan-platform/config-repo
+          uri: https://github.com/Polymath0033/loan-app.git
           clone-on-start: true
           default-label: main
   # Credentials that client services use to authenticate with this config server.
